@@ -5,7 +5,7 @@ import pickle
 
 model = pickle.load(open('model.pkl','rb'))
 
-st.header('Hi! You can your question pairs here :) ')
+st.header('Hi! You can check question pairs here :) ')
 st.header('Duplicate Question Pairs')
 
 q1 = st.text_input('Enter question 1')
